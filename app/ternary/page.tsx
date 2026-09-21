@@ -1,16 +1,11 @@
-export default function Statement() {
+export default function Ternary() {
     const x = 5;
-    let y = "Apple";
-
-    if (x == 5) {
-        y = "Banana";
-    }
 
     return (
         <>
             <div>
                 <main className="flex items-center justify-center h-screen">
-                    <p>{y}</p>
+                    <h1>{x < 5 ? "Banana" : "Apple"}</h1>
                 </main>
             </div>
         </>
